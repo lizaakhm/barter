@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    color: black; /* Change color to black */
+    background: white;
+    border-bottom: 1px solid #fff;
+    z-index: 999; /* Add z-index to keep header on top */
+  }
+  
+  nav .logo {
+    padding: 10px 18px;
+    height: 90px;
+    float: left;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+  }
+  
+  nav ul {
+    list-style: none;
+    float: left;
+    padding: 3px 5px;
+    display: flex;
+  }
+  
+  nav ul li a {
+    line-height: 90px;
+    color: black;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+  
+  nav i {
+    line-height: 90px;
+    color: black;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: flex;
+    float: right;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  
+  .button:hover {
+    opacity: 1;
+  }
+  
+  .banner {
+    background-image: url("back.png");
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    padding: 100px;
+  }
+  
+  .title {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px; /* Add margin-top */
+  }
+  h1 {
+    font-size: 50px;
+    color: black;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 20px; /* Increase margin-bottom */
+  }
+  p {
+    padding-top: 15px; /* Decrease padding-top */
+  
+    font-size: 20px;
+    width: 60%;
+    color: black;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .phone {
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .line {
+    position: absolute;
+    width: 2px;
+    height: 140px;
+    left: 222px;
+    top: 70px; /* increase the value to lower the line */
+    background: #000000;
+    transform: rotate(-90deg);
+  }
+  .learnMore {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .banner2 {
+    background: rgba(243, 203, 210, 0.3) url("social-media-3846597 3.png");
+    background-opacity: 30%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .line2 {
+    position: absolute;
+    width: 4px;
+    height: 500px; /* change the height value */
+    left: 300px;
+    top: 500px;
+    background: #000000;
+    transform: rotate(-90deg);
+  }
+  
+  .compphone {
+    position: absolute;
+    width: 329px;
+    height: 258px;
+    left: 965px;
+    top: 960px;
+  
+    background: url(mailchimp-mpwF3Mv2UaU-unsplash.jpg);
+  }
+  
+  .desk {
+    /* office-desk-gear-smartphone-tablet-picjumbo-com 1 */
+  
+    position: absolute;
+    width: 411px;
+    height: 395px;
+    left: 1105px;
+    top: 800px;
+  
+    background: url(office-desk-gear-smartphone-tablet-picjumbo-com.jpg);
+    border-radius: 40px 0px 0px 40px;
+  }
+  
