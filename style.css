@@ -147,7 +147,7 @@ body {
   }
   .line2 {
     position: absolute;
-    width: 4px;
+    width: 2px;
     height: 500px; /* change the height value */
     left: 300px;
     top: 500px;
